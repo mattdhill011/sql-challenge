@@ -101,6 +101,16 @@ SELECT
 
 	WHERE  (d.dept_name = 'Sales')
 		or (d.dept_name = 'Development');
-		
+	
 -- Data Analysis Step 8
+
+SELECT
+	COUNT(e.emp_no) AS "Total Employees",
+	e.last_name AS "Last Name"
+	
+	FROM employees AS e
+		
+	GROUP BY "Last Name"
+	ORDER BY "Total Employees" DESC;
+
 
