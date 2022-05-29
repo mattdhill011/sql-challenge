@@ -112,5 +112,3 @@ SELECT
 		
 	GROUP BY "Last Name"
 	ORDER BY "Total Employees" DESC;
-
-

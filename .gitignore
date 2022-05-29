@@ -130,3 +130,6 @@ dmypy.json
 
 # Postgres passwords
 postgresql_password.py
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
